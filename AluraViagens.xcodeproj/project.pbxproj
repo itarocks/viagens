@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98602C3E299FA624008DE8B7 /* token in Resources */ = {isa = PBXBuildFile; fileRef = 98602C3D299FA624008DE8B7 /* token */; };
+		98602C40299FC02C008DE8B7 /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98602C3F299FC02C008DE8B7 /* HomeTableViewHeader.xib */; };
+		98602C4229A7CF5F008DE8B7 /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98602C4129A7CF5F008DE8B7 /* HomeTableViewHeader.swift */; };
+		98602C4429A7DC02008DE8B7 /* anotacoes in Resources */ = {isa = PBXBuildFile; fileRef = 98602C4329A7DC02008DE8B7 /* anotacoes */; };
 		98644C8729494B64007BECED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98644C8629494B64007BECED /* AppDelegate.swift */; };
 		98644C8929494B64007BECED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98644C8829494B64007BECED /* SceneDelegate.swift */; };
 		98644C8B29494B64007BECED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98644C8A29494B64007BECED /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98602C3D299FA624008DE8B7 /* token */ = {isa = PBXFileReference; lastKnownFileType = text; path = token; sourceTree = "<group>"; };
+		98602C3F299FC02C008DE8B7 /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
+		98602C4129A7CF5F008DE8B7 /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
+		98602C4329A7DC02008DE8B7 /* anotacoes */ = {isa = PBXFileReference; lastKnownFileType = text; path = anotacoes; sourceTree = "<group>"; };
 		98644C8329494B64007BECED /* AluraViagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AluraViagens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98644C8629494B64007BECED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98644C8829494B64007BECED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +71,10 @@
 				98644C8F29494B67007BECED /* Assets.xcassets */,
 				98644C9129494B67007BECED /* LaunchScreen.storyboard */,
 				98644C9429494B67007BECED /* Info.plist */,
+				98602C3D299FA624008DE8B7 /* token */,
+				98602C3F299FC02C008DE8B7 /* HomeTableViewHeader.xib */,
+				98602C4129A7CF5F008DE8B7 /* HomeTableViewHeader.swift */,
+				98602C4329A7DC02008DE8B7 /* anotacoes */,
 			);
 			path = AluraViagens;
 			sourceTree = "<group>";
@@ -127,6 +139,9 @@
 			files = (
 				98644C9329494B67007BECED /* LaunchScreen.storyboard in Resources */,
 				98644C9029494B67007BECED /* Assets.xcassets in Resources */,
+				98602C4429A7DC02008DE8B7 /* anotacoes in Resources */,
+				98602C40299FC02C008DE8B7 /* HomeTableViewHeader.xib in Resources */,
+				98602C3E299FA624008DE8B7 /* token in Resources */,
 				98644C8E29494B64007BECED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98644C8B29494B64007BECED /* ViewController.swift in Sources */,
+				98602C4229A7CF5F008DE8B7 /* HomeTableViewHeader.swift in Sources */,
 				98644C8729494B64007BECED /* AppDelegate.swift in Sources */,
 				98644C8929494B64007BECED /* SceneDelegate.swift in Sources */,
 			);
