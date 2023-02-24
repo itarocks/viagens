@@ -30,29 +30,40 @@
                         <constraint firstAttribute="height" constant="250" id="2KT-7m-YR1"/>
                     </constraints>
                 </view>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="42E-60-AN5" userLabel="Banner View">
-                    <rect key="frame" x="20" y="136" width="375" height="130"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="42E-60-AN5" userLabel="Banner View">
+                    <rect key="frame" x="20" y="130" width="375" height="130"/>
                     <subviews>
-                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yow-HY-6C5">
-                            <rect key="frame" x="0.0" y="0.0" width="200" height="128"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yow-HY-6C5">
+                            <rect key="frame" x="0.0" y="0.0" width="200" height="130"/>
                             <color key="backgroundColor" red="0.31764705882352939" green="0.70196078431372544" blue="0.69411764705882351" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         </view>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Qo-NF-iqb">
-                            <rect key="frame" x="200" y="0.0" width="175" height="128"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Qo-NF-iqb">
+                            <rect key="frame" x="200" y="0.0" width="175" height="130"/>
                         </imageView>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="Yow-HY-6C5" firstAttribute="top" secondItem="42E-60-AN5" secondAttribute="top" id="EAl-Lw-eb7"/>
+                        <constraint firstItem="6Qo-NF-iqb" firstAttribute="top" secondItem="42E-60-AN5" secondAttribute="top" id="O0c-hK-0ji"/>
+                        <constraint firstItem="Yow-HY-6C5" firstAttribute="leading" secondItem="42E-60-AN5" secondAttribute="leading" id="bzb-cM-IKa"/>
+                        <constraint firstItem="Yow-HY-6C5" firstAttribute="width" secondItem="42E-60-AN5" secondAttribute="width" multiplier="0.533333" id="cKc-IR-1NF"/>
+                        <constraint firstAttribute="bottom" secondItem="6Qo-NF-iqb" secondAttribute="bottom" id="ekT-mW-ZG9"/>
+                        <constraint firstAttribute="height" constant="130" id="f7m-Zj-PxB"/>
+                        <constraint firstAttribute="trailing" secondItem="6Qo-NF-iqb" secondAttribute="trailing" id="fGA-vd-aKA"/>
+                        <constraint firstAttribute="bottom" secondItem="Yow-HY-6C5" secondAttribute="bottom" id="o1j-RW-OwK"/>
+                        <constraint firstItem="6Qo-NF-iqb" firstAttribute="width" secondItem="42E-60-AN5" secondAttribute="width" multiplier="0.466667" id="s1H-Nq-PUJ"/>
+                    </constraints>
                 </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="ayz-ay-gu4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="083-IK-CbM"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="42E-60-AN5" secondAttribute="trailing" constant="19" id="8oO-rf-8zs"/>
+                <constraint firstItem="42E-60-AN5" firstAttribute="bottom" secondItem="ayz-ay-gu4" secondAttribute="bottom" constant="10" id="Ndk-eE-uRC"/>
                 <constraint firstItem="ayz-ay-gu4" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="PaK-QA-ril"/>
                 <constraint firstItem="ayz-ay-gu4" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="bYe-MC-Bzx"/>
+                <constraint firstItem="42E-60-AN5" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="lkM-SM-wnd"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
